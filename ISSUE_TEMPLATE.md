@@ -12,28 +12,41 @@ Thanks for your contribution! If you're submitting a tutorial, please ensure it 
 
 ### Category
 * [ ] 3D Renderer
+* [ ] API Gateway
 * [ ] Augmented Reality
+* [ ] Authentication System
 * [ ] BitTorrent Client
 * [ ] Blockchain / Cryptocurrency
 * [ ] Bot
+* [ ] Cache System
 * [ ] Command-Line Tool
+* [ ] Compiler
 * [ ] Database
 * [ ] Docker
 * [ ] Emulator / Virtual Machine
 * [ ] Front-end Framework / Library
 * [ ] Game
 * [ ] Git
+* [ ] HTTP Client
+* [ ] JSON Parser
+* [ ] Load Balancer
+* [ ] Memory Allocator
+* [ ] Message Queue
 * [ ] Network Stack
 * [ ] Neural Network
 * [ ] Operating System
+* [ ] Package Manager
 * [ ] Physics Engine
 * [ ] Programming Language
 * [ ] Regex Engine
 * [ ] Search Engine
 * [ ] Shell
+* [ ] Static Site Generator
 * [ ] Template Engine
+* [ ] Testing Framework
+* [ ] Text Editor
 * [ ] Visual Recognition System
 * [ ] Voxel Engine
-* [ ] Web Search Engine
+* [ ] Web Browser
 * [ ] Web Server
 * [ ] Uncategorized
