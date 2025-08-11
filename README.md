@@ -8,6 +8,24 @@ This repository is a compilation of well-written, step-by-step guides for re-cre
 
 It's a great way to learn.
 
+## How to Use This Repository
+
+- **For Learners**: Browse categories that interest you and start with tutorials matching your skill level
+- **For Contributors**: Check our [Contributing Guide](CONTRIBUTING.md) to add new tutorials
+- **For Maintainers**: See [Issue Template](ISSUE_TEMPLATE.md) for submission guidelines
+
+Choose tutorials based on:
+- **Programming Language**: Pick a language you want to practice or learn
+- **Difficulty**: Some tutorials are beginner-friendly, others require advanced knowledge  
+- **Time Commitment**: Tutorials range from quick exercises to comprehensive projects
+- **Learning Goal**: Whether you want to understand concepts or build something practical
+
+💡 **Difficulty Guidelines**:
+- 🟢 **Beginner**: Command-Line Tools, JSON Parser, Template Engine
+- 🟡 **Intermediate**: HTTP Client, Cache System, Testing Framework, Static Site Generator  
+- 🟠 **Advanced**: Compiler, Database, Operating System, Load Balancer
+- 🔴 **Expert**: Blockchain, Neural Network, Physics Engine, Voxel Engine
+
 * [3D Renderer](#build-your-own-3d-renderer)
 * [API Gateway](#build-your-own-api-gateway)
 * [Augmented Reality](#build-your-own-augmented-reality)
