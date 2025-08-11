@@ -9,26 +9,38 @@ This repository is a compilation of well-written, step-by-step guides for re-cre
 It's a great way to learn.
 
 * [3D Renderer](#build-your-own-3d-renderer)
+* [API Gateway](#build-your-own-api-gateway)
 * [Augmented Reality](#build-your-own-augmented-reality)
+* [Authentication System](#build-your-own-authentication-system)
 * [BitTorrent Client](#build-your-own-bittorrent-client)
 * [Blockchain / Cryptocurrency](#build-your-own-blockchain--cryptocurrency)
 * [Bot](#build-your-own-bot)
+* [Cache System](#build-your-own-cache-system)
 * [Command-Line Tool](#build-your-own-command-line-tool)
+* [Compiler](#build-your-own-compiler)
 * [Database](#build-your-own-database)
 * [Docker](#build-your-own-docker)
 * [Emulator / Virtual Machine](#build-your-own-emulator--virtual-machine)
 * [Front-end Framework / Library](#build-your-own-front-end-framework--library)
 * [Game](#build-your-own-game)
 * [Git](#build-your-own-git)
+* [HTTP Client](#build-your-own-http-client)
+* [JSON Parser](#build-your-own-json-parser)
+* [Load Balancer](#build-your-own-load-balancer)
+* [Memory Allocator](#build-your-own-memory-allocator)
+* [Message Queue](#build-your-own-message-queue)
 * [Network Stack](#build-your-own-network-stack)
 * [Neural Network](#build-your-own-neural-network)
 * [Operating System](#build-your-own-operating-system)
+* [Package Manager](#build-your-own-package-manager)
 * [Physics Engine](#build-your-own-physics-engine)
 * [Programming Language](#build-your-own-programming-language)
 * [Regex Engine](#build-your-own-regex-engine)
 * [Search Engine](#build-your-own-search-engine)
 * [Shell](#build-your-own-shell)
+* [Static Site Generator](#build-your-own-static-site-generator)
 * [Template Engine](#build-your-own-template-engine)
+* [Testing Framework](#build-your-own-testing-framework)
 * [Text Editor](#build-your-own-text-editor)
 * [Visual Recognition System](#build-your-own-visual-recognition-system)
 * [Voxel Engine](#build-your-own-voxel-engine)
@@ -52,6 +64,14 @@ It's a great way to learn.
 * [**JavaScript / Pseudocode**: _Computer Graphics from scratch_](http://www.gabrielgambetta.com/computer-graphics-from-scratch/introduction.html)
 * [**Python**: _A 3D Modeller_](http://aosabook.org/en/500L/a-3d-modeller.html)
 
+#### Build your own `API Gateway`
+
+* [**Go**: _Building a simple API Gateway_](https://www.sobyte.net/post/2022-06/simple-api-gateway/)
+* [**Go**: _Build Your Own API Gateway in Go_](https://dzone.com/articles/build-your-own-api-gateway-in-golang)
+* [**Java**: _How to Build an API Gateway_](https://www.baeldung.com/spring-cloud-gateway)
+* [**JavaScript**: _Build a simple API Gateway with Node.js_](https://blog.bearer.sh/build-an-api-gateway-with-nodejs/)
+* [**Python**: _Building an API Gateway with Python_](https://realpython.com/api-integration-in-python/)
+
 #### Build your own `Augmented Reality`
 
 * [**C#**: _How To: Augmented Reality App Tutorial for Beginners with Vuforia and Unity 3D_](https://www.youtube.com/watch?v=uXNjNcqW4kY) [video]
@@ -60,6 +80,16 @@ It's a great way to learn.
 * [**C#**: _How to create a Dragon in Augmented Reality in Unity ARCore_](https://www.youtube.com/watch?v=qTSDPkPyPqs) [video]
 * [**C#**: _How to Augmented Reality AR Tutorial: ARKit Portal to the Upside Down_](https://www.youtube.com/watch?v=Z5AmqMuNi08) [video]
 * [**Python**: _Augmented Reality with Python and OpenCV_](https://bitesofcode.wordpress.com/2017/09/12/augmented-reality-with-python-and-opencv-part-1/)
+
+#### Build your own `Authentication System`
+
+* [**C#**: _Build Your Own Identity Server_](https://www.scottbrady91.com/identity-server/getting-started-with-identityserver-4)
+* [**Go**: _Building a simple authentication system_](https://www.sohamkamani.com/golang/2019-01-01-jwt-authentication/)
+* [**Java**: _Build Your Own OAuth2 Authorization Server_](https://spring.io/guides/tutorials/spring-boot-oauth2/)
+* [**JavaScript**: _Build a complete login system with Node.js and MongoDB_](https://blog.bitsrc.io/build-a-login-system-in-node-js-f1ba2abd19a)
+* [**JavaScript**: _Building Authentication into Your React App_](https://auth0.com/blog/complete-guide-to-react-user-authentication/)
+* [**Python**: _Build a user authentication system with Flask_](https://blog.miguelgrinberg.com/post/the-flask-mega-tutorial-part-v-user-logins)
+* [**Ruby**: _Build a complete authentication system in Ruby on Rails_](https://guides.rubyonrails.org/getting_started.html)
 
 #### Build your own `BitTorrent Client`
 
@@ -113,6 +143,15 @@ It's a great way to learn.
 * [**R**: _Build A Cryptocurrency Trading Bot with R_](https://towardsdatascience.com/build-a-cryptocurrency-trading-bot-with-r-1445c429e1b1)
 * [**Rust**: _A bot for Starcraft in Rust, C or any other language_](https://habr.com/en/post/436254/)
 
+#### Build your own `Cache System`
+
+* [**C**: _Write your own Redis_](https://rohitpaulk.com/articles/redis-0)
+* [**Go**: _Build Your Own Redis with Go_](https://www.build-redis-from-scratch.dev/)
+* [**Java**: _Building a Simple Cache in Java_](https://www.baeldung.com/java-lru-cache)
+* [**JavaScript**: _Build Your Own In-Memory Cache_](https://javascript.plainenglish.io/build-your-own-in-memory-cache-in-node-js-59e4ab4d8674)
+* [**Python**: _Build Your Own Cache Implementation_](https://realpython.com/lru-cache-python/)
+* [**Ruby**: _Build your own fast, persistent KV store in Ruby_](https://dineshgowda.com/posts/build-your-own-persistent-kv-store/)
+
 #### Build your own `Command-Line Tool`
 
 * [**Go**: _Visualize your local git contributions with Go_](https://flaviocopes.com/go-git-contributions/)
@@ -124,6 +163,18 @@ It's a great way to learn.
 * [**Rust**: _Command line apps in Rust_](https://rust-cli.github.io/book/index.html)
 * [**Rust**: _Writing a Command Line Tool in Rust_](https://mattgathu.dev/2017/08/29/writing-cli-app-rust.html)
 
+#### Build your own `Compiler`
+
+* [**C**: _A C & x86 version of the "Let's Build a Compiler" by Jack Crenshaw_](https://github.com/lotabout/Let-s-build-a-compiler)
+* [**C**: _A journey explaining how to build a compiler from scratch_](https://github.com/DoctorWkt/acwj)
+* [**C++**: _How to Create a Compiler_](https://www.youtube.com/watch?v=eF9qWbuQLuw) [video]
+* [**C++**: _Kaleidoscope: Implementing a Language with LLVM_](https://llvm.org/docs/tutorial/MyFirstLanguageFrontend/index.html)
+* [**C++**: _Writing Your Own Toy Compiler Using Flex_](https://gnuu.org/2009/09/18/writing-your-own-toy-compiler/)
+* [**Go**: _The Super Tiny Compiler_](https://github.com/hazbo/the-super-tiny-compiler)
+* [**JavaScript**: _The Super Tiny Compiler_](https://github.com/jamiebuilds/the-super-tiny-compiler)
+* [**OCaml**: _Writing a C Compiler_](https://norasandler.com/2017/11/29/Write-a-Compiler.html)
+* [**Python**: _From Source Code To Machine Code: Build Your Own Compiler From Scratch_](https://build-your-own.org/compiler/)
+* [**TypeScript**: _Build your own WebAssembly Compiler_](https://blog.scottlogic.com/2019/05/17/webassembly-compiler.html)
 
 #### Build your own `Database`
 
@@ -230,6 +281,45 @@ It's a great way to learn.
 * [**Python**: _ugit: Learn Git Internals by Building Git Yourself_](https://www.leshenko.net/p/ugit/)
 * [**Ruby**: _Rebuilding Git in Ruby_](https://robots.thoughtbot.com/rebuilding-git-in-ruby)
 
+#### Build your own `HTTP Client`
+
+* [**C**: _Building an HTTP client from scratch_](https://ops.tips/blog/curl-from-scratch/)
+* [**Go**: _Writing an HTTP client in Go_](https://www.alexedwards.net/blog/make-http-requests-over-tls-with-go)
+* [**JavaScript**: _Build Your Own HTTP Client_](https://blog.bearer.sh/building-http-client/)
+* [**Python**: _Build Your Own HTTP Client in Python_](https://realpython.com/python-requests/)
+* [**Rust**: _Building an HTTP client in Rust_](https://rust-lang-nursery.github.io/rust-cookbook/web/clients/requests.html)
+
+#### Build your own `JSON Parser`
+
+* [**C**: _Build Your Own JSON Parser_](https://github.com/cheery/json-algorithm)
+* [**C++**: _How to write a JSON parser in C++_](https://arzg.github.io/lang/12/)
+* [**Go**: _Writing a JSON parser from scratch in Go_](https://abhinavg.net/posts/flexible-json/)
+* [**Java**: _Build a JSON Parser_](https://www.baeldung.com/java-json-parser)
+* [**JavaScript**: _JSON Parser from scratch in JavaScript_](https://lihautan.com/json-parser-with-javascript/)
+* [**Python**: _JSON Decoding Algorithm_](https://github.com/cheery/json-algorithm)
+* [**Rust**: _Build Your Own JSON Parser in Rust_](https://arzg.github.io/lang/12/)
+
+#### Build your own `Load Balancer`
+
+* [**Go**: _Let's Create a Simple Load Balancer_](https://kasvith.me/posts/lets-create-a-simple-lb-go/)
+* [**Java**: _Building a Load Balancer in Java_](https://www.baeldung.com/java-load-balancer)
+* [**JavaScript**: _Build a Load Balancer with Node.js_](https://blog.bearer.sh/build-a-load-balancer-with-nodejs/)
+* [**Python**: _Build Your Own Load Balancer_](https://kamalshkeir.dev/posts/build-your-own-load-balancer)
+
+#### Build your own `Memory Allocator`
+
+* [**C**: _Malloc tutorial_](https://danluu.com/malloc-tutorial/)
+* [**C**: _Writing a Memory Allocator_](http://www.craftinginterpreters.com/garbage-collection.html)
+* [**C++**: _Building a Custom Memory Allocator_](https://www.gingerbill.org/article/2019/02/08/memory-allocation-strategies-002/)
+* [**Rust**: _Building a Memory Allocator in Rust_](https://os.phil-opp.com/heap-allocation/)
+
+#### Build your own `Message Queue`
+
+* [**Go**: _Build Your Own Message Queue with Go and Redis_](https://outcrawl.com/go-redis-message-queue)
+* [**Java**: _Building a Message Queue_](https://www.baeldung.com/java-message-queues)
+* [**JavaScript**: _Build Your Own Message Queue_](https://blog.bitsrc.io/build-a-simple-message-queue-using-node-js-and-redis-9b36f4c7c45c)
+* [**Python**: _Building a message queue_](https://python.plainenglish.io/building-a-message-queue-using-redis-in-python-2d8db7520830)
+
 #### Build your own `Network Stack`
 
 * [**C**: _Beej's Guide to Network Programming_](http://beej.us/guide/bgnet/)
@@ -275,6 +365,13 @@ It's a great way to learn.
 * [**Rust**: _Writing an OS in Rust_](https://os.phil-opp.com/)
 * [**Rust**: _Add RISC-V Rust Operating System Tutorial_](https://osblog.stephenmarz.com/)
 * [**(any)**: _Linux from scratch_](https://linuxfromscratch.org/lfs)
+
+#### Build your own `Package Manager`
+
+* [**Go**: _Build Your Own Package Manager_](https://medium.com/@matryer/building-a-package-manager-with-go-6b90c2c8c7c5)
+* [**JavaScript**: _Let's Dev: A Package Manager_](https://medium.com/@maybekatz/introducing-npx-an-npm-package-runner-55f7d4bd282b)
+* [**Python**: _How to Build a Python Package Manager_](https://realpython.com/python-modules-packages/)
+* [**TypeScript**: _Tiny Package Manager: Learns how npm or Yarn works_](https://github.com/g-plane/tiny-package-manager)
 
 #### Build your own `Physics Engine`
 
@@ -362,6 +459,14 @@ It's a great way to learn.
 * [**Go**: _Writing a simple shell in Go_](https://sj14.gitlab.io/post/2018-07-01-go-unix-shell/)
 * [**Rust**: _Build Your Own Shell using Rust_](https://www.joshmcguigan.com/blog/build-your-own-shell-rust/)
 
+#### Build your own `Static Site Generator`
+
+* [**Go**: _Building a static site generator in Go_](https://www.alexedwards.net/blog/a-static-site-generator-using-go)
+* [**JavaScript**: _Build your own static site generator_](https://blog.alexmaccaw.com/static-site-generators)
+* [**Node.js**: _Build a static site generator in 40 lines with Node.js_](https://www.webdevdrops.com/en/build-static-site-generator-nodejs-8969ebe34b22/)
+* [**Python**: _Building a Static Site Generator_](https://rahmonov.me/posts/build-your-own-static-site-generator/)
+* [**Ruby**: _Building a static site generator in Ruby_](https://www.sitepoint.com/static-site-generator-middleman/)
+
 #### Build your own `Template Engine`
 
 * [**JavaScript**: _JavaScript template engine in just 20 lines_](http://krasimirtsonev.com/blog/article/Javascript-template-engine-in-just-20-line)
@@ -369,6 +474,15 @@ It's a great way to learn.
 * [**Python**: _Approach: Building a toy template engine in Python_](http://alexmic.net/building-a-template-engine/)
 * [**Python**: _A Template Engine_](http://aosabook.org/en/500L/a-template-engine.html)
 * [**Ruby**: _How to write a template engine in less than 30 lines of code_](http://bits.citrusbyte.com/how-to-write-a-template-library/)
+
+#### Build your own `Testing Framework`
+
+* [**C++**: _How to Write Your Own C++ Testing Framework_](https://alexott.net/en/cpp/CppTestingIntro.html)
+* [**Go**: _Building a Testing Framework in Go_](https://quii.gitbook.io/learn-go-with-tests/go-fundamentals/mocking)
+* [**JavaScript**: _Build Your Own JavaScript Testing Framework_](https://cpojer.net/posts/building-a-javascript-testing-framework)
+* [**Nim**: _Writing a MiniTest Framework_](https://xmonader.github.io/nimdays/day08_minitest.html)
+* [**Python**: _Building Your Own Testing Framework_](https://realpython.com/python-testing/)
+* [**Ruby**: _Build a testing framework_](https://www.rubyguides.com/2018/07/rspec-tutorial/)
 
 #### Build your own `Text Editor`
 
@@ -387,7 +501,10 @@ It's a great way to learn.
 #### Build your own `Voxel Engine`
 
 * [**C++**: _Let's Make a Voxel Engine_](https://sites.google.com/site/letsmakeavoxelengine/home)
+* [**C#**: _Voxel Engine in Unity_](https://www.youtube.com/playlist?list=PLFt_AvWsXl0eBW2EiBtl_sxmDtSgZBxB3) [video]
 * [**Java**: _Java Voxel Engine Tutorial_](https://www.youtube.com/watch?v=QZ4Vk2PkPZk&list=PL80Zqpd23vJfyWQi-8FKDbeO_ZQamLKJL) [video]
+* [**JavaScript**: _Build a Voxel Engine in JavaScript_](https://www.babylonjs-playground.com/)
+* [**Python**: _Voxel Engine in Python with Panda3D_](https://www.panda3d.org/manual/?title=A_Panda3D_Hello_World_Tutorial)
 
 #### Build your own `Web Browser`
 
@@ -462,14 +579,12 @@ It's a great way to learn.
 * [**Python**: _Stock Market Predictions with LSTM in Python_](https://www.datacamp.com/community/tutorials/lstm-python-stock-market)
 * [**Python**: _Building a simple Generative Adversarial Network (GAN) using Tensorflow_](https://blog.paperspace.com/implementing-gans-in-tensorflow/)
 * [**Python**: _Learn ML Algorithms by coding: Decision Trees_](https://lethalbrains.com/learn-ml-algorithms-by-coding-decision-trees-439ac503c9a4)
-* [**Python**: _JSON Decoding Algorithm_](https://github.com/cheery/json-algorithm)
 * [**Python**: _Build your own Git plugin with python_](https://joshburns-xyz.vercel.app/posts/build-your-own-git-plugin)
 * [**Ruby**: _A Pedometer in the Real World_](http://aosabook.org/en/500L/a-pedometer-in-the-real-world.html)
 * [**Ruby**: _Creating a Linux Desktop application with Ruby_](https://iridakos.com/tutorials/2018/01/25/creating-a-gtk-todo-application-with-ruby)
 * [**Rust**: _Building a DNS server in Rust_](https://github.com/EmilHernvall/dnsguide/blob/master/README.md)
 * [**Rust**: _Writing Scalable Chat Service from Scratch_](https://nbaksalyar.github.io/2015/07/10/writing-chat-in-rust.html)
 * [**Rust**: _WebGL + Rust: Basic Water Tutorial_](https://www.chinedufn.com/3d-webgl-basic-water-tutorial/)
-* [**TypeScript**: _Tiny Package Manager: Learns how npm or Yarn works_](https://github.com/g-plane/tiny-package-manager)
 
 ## Contribute 
 * Submissions welcome, just send a PR, or [create an issue](https://github.com/codecrafters-io/build-your-own-x/issues/new)
